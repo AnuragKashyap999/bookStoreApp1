@@ -1,9 +1,9 @@
 import React from 'react';
-import Home from './home/Home';
+import Home from './home/Home.jsx';
 import { Route , Routes } from "react-router-dom";
-import Courses from './courses/courses';
-import Signup from './component/Signup';
-import Contact from './component/Contact';
+import Courses from './courses/courses.jsx';
+import Signup from './component/Signup.jsx';
+import Contact from './component/Contact.jsx';
 
 
 function App() {
