@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../component/Navbar.jsx';
 import Course from '../component/Course.jsx';
 import Footer from '../component/Footer.jsx';
-function Courses() {
+function courses() {
   return (
     <>
     
@@ -14,4 +14,4 @@ function Courses() {
     </>
   )
 }
-export default Courses;
+export default courses;
