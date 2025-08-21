@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../component/Navbar.jsx';
-import Course from '../component/Course.jsx';
+import Course from '../component/course.jsx';
 import Footer from '../component/Footer.jsx';
 function courses() {
   return (
