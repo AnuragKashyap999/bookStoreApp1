@@ -6,7 +6,7 @@ function Banner() {
       <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row my-10">
         <div className='w-full order-2 md:order-1  md:w-1/2 mt-12 md:mt-32'>
         <div className='space-y-12'>
-        <h1 className='text-4xl font-bold'>Hello, Welcome herer to learn something 
+        <h1 className='text-4xl font-bold'>Hello, Welcome here to learn something 
             <span className='text-pink-500'> new everyday!!!</span> </h1>
             <p className='text-xl '>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -29,12 +29,12 @@ function Banner() {
        <input className=" dark:text-slate-900" type="email" placeholder="Email" required />
        </label>
           </div>
-          <button className="btn mt-6 btn-secondary">Secondary</button>
+          <button className="btn mt-6 btn-secondary">Get Started</button>
          
         </div>
         <div className=' order-1 w-full md:w-1/2 '>
         <img src={banner}
-        className='p-2 mt-2 w-170 h-140'/>
+        className='p-2 mt-2 w-170  sm:h-140'  />
         </div>
       </div>
     </>
